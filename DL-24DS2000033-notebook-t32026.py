@@ -31,7 +31,7 @@ SEED = 42
 NUM_WORKERS = min(4, os.cpu_count() or 2)
 DEV = "cuda" if torch.cuda.is_available() else "cpu"
 USE_WANDB = True
-ENTITY = "24ds2000033-iitm-bs-org"
+ENTITY = "24ds2000033-iitm-bs"
 PROJECT = "24DS2000033-t32026"
 
 # tuning grids (done on out-of-fold predictions, using cheap count arithmetic)
